@@ -2,7 +2,7 @@ document.getElementById('convertBtn').addEventListener('click', function() {
     var amount = document.getElementById('amount').value;
     var crypto = document.getElementById('crypto').value;
     var fiat = document.getElementById('fiat').value;
-    var apiKey = 'AIzaSyBKeqELONY0mwdW7LshHU9o-XNMuHLdAwU'; // Replace with your actual Gemini API key
+    var apiKey = ''; // Replace with your actual Gemini API key
     var apiUrl = 'https://api.gemini.com/v2/ticker/' + crypto.toLowerCase() + fiat.toLowerCase();
 
     // Show loading spinner
